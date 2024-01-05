@@ -340,7 +340,8 @@ button i:hover{
 	visibility: hidden;
 }
 
-@media(max-width: 55em){
+/* Responsive Page */
+@media(max-width: 880px){
 	.circle{
 		width: 17.65rem;
 		height: 17.65rem;
@@ -360,3 +361,75 @@ button i:hover{
 	}
 
 }
+
+@media(max-width: 1400px){
+	.circle{
+		width: 280px;
+		height: 360px;
+	}
+}
+
+@media(max-height: 400px){
+	.circle{
+		width: 140px;
+		height: 180px;
+	}
+
+	.inner-circle{
+		width: 120px;
+		height: 100px;
+	}
+}
+
+@media(max-height: 500px){
+	.circle{
+		min-width: 180px;
+		min-height: 260px;
+	}
+
+	.inner-circle{
+		width: 200px;
+		height: 200px;
+	}
+}
+
+@media(max-height: 660px){
+	.circle{
+		width: 280px;
+		min-height: 280px;
+	}
+}
+
+@media(min-height: 600px){
+	.circle{
+		width: 250px;
+		height: 420px;
+	}
+
+	.inner-circle{
+		width: 208px;
+		height: 200px;
+	}
+}
+
+@media(max-height: 700px){
+	.circle{
+		width: 280px;
+		height: 350px;
+	}
+}
+
+@media(max-height: 900px){
+	.circle{
+		width: 280px;
+		height: 300px;
+	}
+}
+
+@media(max-height: 1300px){
+	.circle{
+		width: 280px;
+		height: 300px;
+	}
+}
+/* End of Responsive Page */
